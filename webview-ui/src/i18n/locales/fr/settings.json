@@ -393,6 +393,21 @@
 			"placeholder": "Défaut : claude",
 			"maxTokensLabel": "Jetons de sortie max",
 			"maxTokensDescription": "Nombre maximum de jetons de sortie pour les réponses de Claude Code. La valeur par défaut est 8000."
+		},
+		"geminiCli": {
+			"description": "Ce fournisseur utilise l'authentification OAuth de l'outil Gemini CLI et ne nécessite pas de clés API.",
+			"oauthPath": "Chemin des identifiants OAuth (optionnel)",
+			"oauthPathDescription": "Chemin vers le fichier d'identifiants OAuth. Laisser vide pour utiliser l'emplacement par défaut (~/.gemini/oauth_creds.json).",
+			"instructions": "Si vous n'êtes pas encore authentifié, veuillez exécuter",
+			"instructionsContinued": "dans votre terminal d'abord.",
+			"setupLink": "Instructions de configuration de Gemini CLI",
+			"requirementsTitle": "Exigences importantes",
+			"requirement1": "Tout d'abord, vous devez installer l'outil Gemini CLI",
+			"requirement2": "Ensuite, exécutez gemini dans votre terminal et assurez-vous de vous connecter avec Google",
+			"requirement3": "Uniquement pour les comptes Google personnels (comptes Google Workspace non pris en charge)",
+			"requirement4": "N'utilise pas de clés API - l'authentification se fait via OAuth",
+			"requirement5": "L'outil Gemini CLI doit être installé et authentifié au préalable",
+			"freeAccess": "Accès gratuit via authentification OAuth"
 		}
 	},
 	"browser": {

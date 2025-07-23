@@ -393,6 +393,21 @@
 			"placeholder": "Domyślnie: claude",
 			"maxTokensLabel": "Maksymalna liczba tokenów wyjściowych",
 			"maxTokensDescription": "Maksymalna liczba tokenów wyjściowych dla odpowiedzi Claude Code. Domyślnie 8000."
+		},
+		"geminiCli": {
+			"description": "Ten dostawca korzysta z uwierzytelniania OAuth narzędzia Gemini CLI i nie wymaga kluczy API.",
+			"oauthPath": "Ścieżka do poświadczeń OAuth (opcjonalnie)",
+			"oauthPathDescription": "Ścieżka do pliku poświadczeń OAuth. Pozostaw puste, aby użyć domyślnej lokalizacji (~/.gemini/oauth_creds.json).",
+			"instructions": "Jeśli nie uwierzytelniłeś się jeszcze, uruchom",
+			"instructionsContinued": "najpierw w swoim terminalu.",
+			"setupLink": "Instrukcje konfiguracji Gemini CLI",
+			"requirementsTitle": "Ważne wymagania",
+			"requirement1": "Najpierw musisz zainstalować narzędzie Gemini CLI",
+			"requirement2": "Następnie uruchom gemini w terminalu i zaloguj się przez Google",
+			"requirement3": "Tylko dla osobistych kont Google (konta Google Workspace nie są obsługiwane)",
+			"requirement4": "Nie używa kluczy API - uwierzytelnianie odbywa się przez OAuth",
+			"requirement5": "Narzędzie Gemini CLI musi być wcześniej zainstalowane i uwierzytelnione",
+			"freeAccess": "Darmowy dostęp przez uwierzytelnianie OAuth"
 		}
 	},
 	"browser": {

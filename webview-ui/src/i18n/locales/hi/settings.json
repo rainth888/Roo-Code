@@ -393,6 +393,21 @@
 			"placeholder": "डिफ़ॉल्ट: claude",
 			"maxTokensLabel": "अधिकतम आउटपुट टोकन",
 			"maxTokensDescription": "Claude Code प्रतिक्रियाओं के लिए आउटपुट टोकन की अधिकतम संख्या। डिफ़ॉल्ट 8000 है।"
+		},
+		"geminiCli": {
+			"description": "यह प्रदाता Gemini CLI टूल के OAuth प्रमाणीकरण का उपयोग करता है और API कुंजी की आवश्यकता नहीं है।",
+			"oauthPath": "OAuth क्रेडेंशियल पथ (वैकल्पिक)",
+			"oauthPathDescription": "OAuth क्रेडेंशियल फ़ाइल का पथ। डिफ़ॉल्ट स्थान (~/.gemini/oauth_creds.json) का उपयोग करने के लिए खाली छोड़ें।",
+			"instructions": "यदि आपने अभी तक प्रमाणीकरण नहीं किया है, तो कृपया पहले",
+			"instructionsContinued": "अपने टर्मिनल में चलाएँ।",
+			"setupLink": "Gemini CLI सेटअप निर्देश",
+			"requirementsTitle": "महत्वपूर्ण आवश्यकताएँ",
+			"requirement1": "सबसे पहले, आपको Gemini CLI टूल इंस्टॉल करना होगा",
+			"requirement2": "फिर, अपने टर्मिनल में gemini चलाएँ और सुनिश्चित करें कि आप Google से लॉगिन करें",
+			"requirement3": "केवल व्यक्तिगत Google खातों के लिए (Google Workspace खाते समर्थित नहीं हैं)",
+			"requirement4": "API कुंजी का उपयोग नहीं करता - प्रमाणीकरण OAuth के माध्यम से होता है",
+			"requirement5": "Gemini CLI टूल को पहले इंस्टॉल और प्रमाणित किया जाना चाहिए",
+			"freeAccess": "OAuth प्रमाणीकरण के माध्यम से निःशुल्क पहुँच"
 		}
 	},
 	"browser": {
@@ -656,7 +671,7 @@
 		"feedback": "यदि आपके कोई प्रश्न या प्रतिक्रिया है, तो <githubLink>github.com/RooCodeInc/Roo-Code</githubLink> पर एक मुद्दा खोलने या <redditLink>reddit.com/r/RooCode</redditLink> या <discordLink>discord.gg/roocode</discordLink> में शामिल होने में संकोच न करें",
 		"telemetry": {
 			"label": "गुमनाम त्रुटि और उपयोग रिपोर्टिंग की अनुमति दें",
-			"description": "गुमनाम उपयोग डेटा और त्रुटि रिपोर्ट भेजकर Roo Code को बेहतर बनाने में मदद करें। कोड, प्रॉम्प्ट, या व्यक्तिगत जानकारी कभी भी नहीं भेजी जाती है। अधिक विवरण के लिए हमारी गोपनीयता नीति देखें।"
+			"description": "गुमनाम उपयोग डेटा और त्रुटि रिपोर्ट भेजकर Roo Code को बेहतर बनाने में मदद करें। कोड, प्रॉम्प, या व्यक्तिगत जानकारी कभी भी नहीं भेजी जाती है। अधिक विवरण के लिए हमारी गोपनीयता नीति देखें।"
 		},
 		"settings": {
 			"import": "इम्पोर्ट",

@@ -393,6 +393,21 @@
 			"placeholder": "Per defecte: claude",
 			"maxTokensLabel": "Tokens màxims de sortida",
 			"maxTokensDescription": "Nombre màxim de tokens de sortida per a les respostes de Claude Code. El valor per defecte és 8000."
+		},
+		"geminiCli": {
+			"description": "Aquest proveïdor utilitza l'autenticació OAuth de l'eina Gemini CLI i no requereix claus API.",
+			"oauthPath": "Ruta de credencials OAuth (opcional)",
+			"oauthPathDescription": "Ruta al fitxer de credencials OAuth. Deixeu-ho en blanc per utilitzar la ubicació predeterminada (~/.gemini/oauth_creds.json).",
+			"instructions": "Si encara no us heu autenticat, executeu",
+			"instructionsContinued": "al vostre terminal primer.",
+			"setupLink": "Instruccions de configuració de Gemini CLI",
+			"requirementsTitle": "Requisits importants",
+			"requirement1": "Primer, heu d'instal·lar l'eina Gemini CLI",
+			"requirement2": "A continuació, executeu gemini al vostre terminal i assegureu-vos d'iniciar sessió amb Google",
+			"requirement3": "Només per a comptes personals de Google (no es permeten comptes de Google Workspace)",
+			"requirement4": "No utilitza claus API - l'autenticació es fa mitjançant OAuth",
+			"requirement5": "Cal instal·lar i autenticar l'eina Gemini CLI prèviament",
+			"freeAccess": "Accés gratuït mitjançant autenticació OAuth"
 		}
 	},
 	"browser": {

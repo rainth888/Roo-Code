@@ -393,6 +393,21 @@
 			"placeholder": "기본값: claude",
 			"maxTokensLabel": "최대 출력 토큰",
 			"maxTokensDescription": "Claude Code 응답의 최대 출력 토큰 수. 기본값은 8000입니다."
+		},
+		"geminiCli": {
+			"description": "이 공급자는 Gemini CLI 도구의 OAuth 인증을 사용하며 API 키가 필요하지 않습니다.",
+			"oauthPath": "OAuth 자격 증명 경로(선택 사항)",
+			"oauthPathDescription": "OAuth 자격 증명 파일의 경로입니다. 기본 위치(~/.gemini/oauth_creds.json)를 사용하려면 비워 두세요.",
+			"instructions": "아직 인증하지 않았다면 먼저",
+			"instructionsContinued": "를 터미널에서 실행하세요.",
+			"setupLink": "Gemini CLI 설정 안내",
+			"requirementsTitle": "중요 요구 사항",
+			"requirement1": "먼저 Gemini CLI 도구를 설치해야 합니다",
+			"requirement2": "그런 다음 터미널에서 gemini를 실행하고 Google로 로그인하세요",
+			"requirement3": "개인 Google 계정만 지원(Workspace 계정은 지원하지 않음)",
+			"requirement4": "API 키를 사용하지 않음 - 인증은 OAuth를 통해 처리됨",
+			"requirement5": "Gemini CLI 도구는 사전에 설치 및 인증되어야 합니다",
+			"freeAccess": "OAuth 인증을 통한 무료 액세스"
 		}
 	},
 	"browser": {

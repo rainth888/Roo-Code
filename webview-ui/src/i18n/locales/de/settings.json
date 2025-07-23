@@ -393,6 +393,21 @@
 			"placeholder": "Standard: claude",
 			"maxTokensLabel": "Maximale Ausgabe-Tokens",
 			"maxTokensDescription": "Maximale Anzahl an Ausgabe-Tokens für Claude Code-Antworten. Standard ist 8000."
+		},
+		"geminiCli": {
+			"description": "Dieser Anbieter verwendet die OAuth-Authentifizierung des Gemini CLI-Tools und benötigt keine API-Schlüssel.",
+			"oauthPath": "OAuth-Anmeldepfad (optional)",
+			"oauthPathDescription": "Pfad zur OAuth-Anmeldedatei. Leer lassen, um den Standardpfad (~/.gemini/oauth_creds.json) zu verwenden.",
+			"instructions": "Wenn Sie sich noch nicht authentifiziert haben, führen Sie bitte",
+			"instructionsContinued": "zuerst in Ihrem Terminal aus.",
+			"setupLink": "Gemini CLI Setup-Anleitung",
+			"requirementsTitle": "Wichtige Anforderungen",
+			"requirement1": "Zuerst müssen Sie das Gemini CLI-Tool installieren",
+			"requirement2": "Führen Sie dann gemini in Ihrem Terminal aus und melden Sie sich mit Google an",
+			"requirement3": "Nur für persönliche Google-Konten (Google Workspace-Konten werden nicht unterstützt)",
+			"requirement4": "Verwendet keine API-Schlüssel - Authentifizierung erfolgt über OAuth",
+			"requirement5": "Gemini CLI-Tool muss installiert und authentifiziert sein",
+			"freeAccess": "Kostenloser Zugriff über OAuth-Authentifizierung"
 		}
 	},
 	"browser": {

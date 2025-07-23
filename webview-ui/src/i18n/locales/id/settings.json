@@ -397,6 +397,21 @@
 			"placeholder": "Default: claude",
 			"maxTokensLabel": "Token Output Maks",
 			"maxTokensDescription": "Jumlah maksimum token output untuk respons Claude Code. Default adalah 8000."
+		},
+		"geminiCli": {
+			"description": "Penyedia ini menggunakan autentikasi OAuth dari alat Gemini CLI dan tidak memerlukan kunci API.",
+			"oauthPath": "Path Kredensial OAuth (opsional)",
+			"oauthPathDescription": "Path ke file kredensial OAuth. Biarkan kosong untuk menggunakan lokasi default (~/.gemini/oauth_creds.json).",
+			"instructions": "Jika Anda belum melakukan autentikasi, silakan jalankan",
+			"instructionsContinued": "di terminal Anda terlebih dahulu.",
+			"setupLink": "Instruksi Penyiapan Gemini CLI",
+			"requirementsTitle": "Persyaratan Penting",
+			"requirement1": "Pertama, Anda harus menginstal alat Gemini CLI",
+			"requirement2": "Kemudian, jalankan gemini di terminal Anda dan pastikan login dengan Google",
+			"requirement3": "Hanya untuk akun Google pribadi (akun Google Workspace tidak didukung)",
+			"requirement4": "Tidak menggunakan kunci API - autentikasi dilakukan melalui OAuth",
+			"requirement5": "Alat Gemini CLI harus diinstal dan diautentikasi terlebih dahulu",
+			"freeAccess": "Akses gratis melalui autentikasi OAuth"
 		}
 	},
 	"browser": {

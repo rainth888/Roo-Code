@@ -393,6 +393,21 @@
 			"placeholder": "Padrão: claude",
 			"maxTokensLabel": "Tokens de saída máximos",
 			"maxTokensDescription": "Número máximo de tokens de saída para respostas do Claude Code. O padrão é 8000."
+		},
+		"geminiCli": {
+			"description": "Este provedor usa autenticação OAuth da ferramenta Gemini CLI e não requer chaves de API.",
+			"oauthPath": "Caminho das credenciais OAuth (opcional)",
+			"oauthPathDescription": "Caminho para o arquivo de credenciais OAuth. Deixe em branco para usar o local padrão (~/.gemini/oauth_creds.json).",
+			"instructions": "Se você ainda não autenticou, execute",
+			"instructionsContinued": "primeiro no seu terminal.",
+			"setupLink": "Instruções de configuração do Gemini CLI",
+			"requirementsTitle": "Requisitos importantes",
+			"requirement1": "Primeiro, você precisa instalar a ferramenta Gemini CLI",
+			"requirement2": "Depois, execute gemini no seu terminal e faça login com o Google",
+			"requirement3": "Apenas para contas pessoais do Google (contas do Google Workspace não são suportadas)",
+			"requirement4": "Não usa chaves de API - a autenticação é feita via OAuth",
+			"requirement5": "A ferramenta Gemini CLI deve ser instalada e autenticada previamente",
+			"freeAccess": "Acesso gratuito via autenticação OAuth"
 		}
 	},
 	"browser": {
